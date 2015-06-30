@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 
 class ViewController: UIViewController,UITextFieldDelegate,UITableViewDelegate,UITableViewDataSource{
 
@@ -51,6 +51,8 @@ class ViewController: UIViewController,UITextFieldDelegate,UITableViewDelegate,U
         textFieldSample.layer.masksToBounds=true
        // textFieldSample.delegate=self
         
+        
+        print("****************this is  just a sample**************")
         createAView()
         var appdelegate : AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
  createAView()
